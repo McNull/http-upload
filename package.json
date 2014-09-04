@@ -1,6 +1,6 @@
 {
   "name": "http-upload",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Simple command line utility that allows uploading files to the current directory via http.",
   "bin": "bin/http-upload.js",
   "scripts": {
@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/McNull/http-upload",
   "dependencies": {
-    "formidable": "~1.0.15"
+    "formidable": "~1.0.15",
+    "minimist": "^1.1.0"
   }
 }
